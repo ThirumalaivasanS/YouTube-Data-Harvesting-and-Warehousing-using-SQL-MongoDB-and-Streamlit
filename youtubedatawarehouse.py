@@ -225,18 +225,18 @@ def execute_query(question_index):
 
 
 #connecting with Youtube API ,MySQL & MongoDB Atlas  
-api_key = "AIzaSyBRgAcgEnAEvE71Z29Smdf9ROiXU-vpMzc"
+api_key = "****"
 youtube = build('youtube','v3',developerKey=api_key)
 
-mydb = sql.connect(host="localhost",
-                   user="root",
-                   password="123412341234",
-                   database= "youtubed"
+mydb = sql.connect(host="****",
+                   user="****",
+                   password="****",
+                   database= "****"
                   )
 mycursor = mydb.cursor(buffered=True)
 
 
-client = pymongo.MongoClient("mongodb+srv://thirumalaivasansubramanian:YyaQOc066tA2ROEf@cluster0.kaxb4jr.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("****")
 db = client.Youtube_Data
 
 
