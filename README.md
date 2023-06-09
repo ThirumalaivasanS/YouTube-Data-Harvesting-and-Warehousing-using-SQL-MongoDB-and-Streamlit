@@ -44,15 +44,6 @@ Once the application is running, you can use it to fetch , save , migrate and an
 - Users can select a channel from the saved data in MongoDB Atlas to migrate the data to a MySQL database using SQL queries.
 - Once the data is migrated to MySQL, users can analyze it by executing SQL queries through Streamlit, facilitating data exploration and generating valuable insights.
 
-## ## Project Overview
-Once the application is running, you can use it to fetch , save , migrate and analyze the data of a desired YouTube channel.
-
-- user provides a YouTube channel ID as input to the project.
-- The project utilizes the YouTube API to fetch channel information associated with the provided channel ID.
-- The fetched data is displayed in a JSON format using Streamlit, providing a user-friendly interface.
-- The project stores the data in a MongoDB Atlas database, segregating it into distinct collections.
-- Users can select a channel from the saved data in MongoDB Atlas to migrate the data to a MySQL database using SQL queries.
-- Once the data is migrated to MySQL, users can analyze it by executing SQL queries through Streamlit, facilitating data exploration and generating valuable insights.
 
 ## Contributing
 
